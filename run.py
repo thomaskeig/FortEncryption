@@ -5,6 +5,13 @@ auth = tweepy.OAuthHandler('PlaceAPIKeyHere', 'PlaceAPISecretHere')
 auth.set_access_token('PlaceAccessTokenHere', 'PlaceAccessTokenSecretHere')
 
 
+interval = 1    # <-- Change to the amount of seconds between each check
+
+
+#----------------------------------------------------------------
+
+
+
 loop = True
 count = 1
 
@@ -20,7 +27,7 @@ while loop == True:
          aesloop = response.text
          print("Checking for change in AES key:" ,count)
          count = count + 1
-         sleep(1)
+         sleep(interval)
 
          if aes != aesloop:
                   print("AES Key has changed...")
