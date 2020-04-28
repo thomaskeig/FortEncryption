@@ -7,14 +7,12 @@
  - Install all packages with one click
 
 ## Getting Started
-|Guide|
-|--|--|
-|Create a twitter app for your program [here](https://developer.twitter.com/en/apps). (You can skip this step if you've already made one.)|
-|Make sure you have [Python 3.6](https://www.python.org/downloads/windows/) installed.|
-|Run the InstallPackages.bat file and let all the libraries install|
-|Open run.py and change your API and access token keys to the ones found in your [twitter app](https://developer.twitter.com/en/apps).|
-|You can change the check interval in line 8 of run.py .|
-|If you wish you can also change the default Twitter Status on line 40.|
+ - Create a twitter app for your program [here](https://developer.twitter.com/en/apps). (You can skip this step if you've already made one.)
+ - Make sure you have [Python 3.6](https://www.python.org/downloads/windows/) installed.
+ - Run the InstallPackages.bat file and let all the libraries install
+ - Open run.py and change your API and access token keys to the ones found in your [twitter app](https://developer.twitter.com/en/apps).
+ - You can change the check interval in line 8 of run.py .
+ - If you wish you can also change the default Twitter Status on line 40.
 
 ## More info
 ### Libraries needed
