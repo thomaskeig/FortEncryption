@@ -15,8 +15,7 @@
  - If you wish you can also change the default Twitter Status on line 40.
 
 ## More info
-### Libraries needed
- - Time
+### Libraries needed to download
  - Tweepy
  - Requests
 
