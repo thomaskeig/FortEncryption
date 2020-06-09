@@ -6,17 +6,17 @@ auth.set_access_token('PlaceAccessTokenHere', 'PlaceAccessTokenSecretHere')
 
 #--------#--------#--------#--------#--------#
 
-interval = 10    # <-- Change to the amount of seconds between each check
+interval = 30    # <-- Change to the amount of seconds between each check
 
 #--------#--------#--------#--------#--------#
 
 loop = True
 count = 1
-response = requests.get('https://fnbot.shop/api/aes')
+response = requests.get('https://benbotfn.tk/api/v1/aes')
 aes = response.json()['mainKey']
 
 while loop == True:
-         response = requests.get('https://fnbot.shop/api/aes')
+         response = requests.get('https://benbotfn.tk/api/v1/aes')
          aes = response.json()['mainKey']
          print("Checking for change in AES key:" ,count)
          count = count + 1
