@@ -17,7 +17,7 @@ aes = response.json()['mainKey']
 
 while loop == True:
          response = requests.get('https://benbotfn.tk/api/v1/aes')
-         aes = response.json()['mainKey']
+         aesloop = response.json()['mainKey']
          print("Checking for change in AES key:" ,count)
          count = count + 1
          sleep(interval)
